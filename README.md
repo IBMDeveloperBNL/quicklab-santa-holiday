@@ -1,9 +1,9 @@
-# :christmas_tree: :christmas_tree: :christmas_tree: Build your Santa Holiday Assistant in a snap :christmas_tree: :christmas_tree: :christmas_tree: 
+# :christmas_tree: :christmas_tree: Build your Santa Holiday Assistant in a snap :christmas_tree: :christmas_tree:
 We will be creating an assistant to take your orders at the Christmas drinks...
 
 ## Creating an IBM Cloud Account
 1. Go to this link and create an account: https://ibm.biz/BdzkM9.
-2. Or, go to https://cloud.ibm.com/ and login if you have an account already.
+2. If you already have an account, go to the same link https://ibm.biz/BdzkM9 and click the **Log in** link, on the top right of the page, to continue.
 
 ## Provisioning a Watson Assistant instance
 1. Once logged in, click on `Catalog` in the upper right corner of the screen.
@@ -13,7 +13,7 @@ We will be creating an assistant to take your orders at the Christmas drinks...
 5. Click `Create`.
 6. Click on `Launch Watson Assistant`.
 
-## Creating Intents
+## Creating Intents :santa:
 
 Once in the tooling, click the `My first skill` tile to go to the `Skills` section.
 
@@ -23,11 +23,11 @@ Once in the tooling, click the `My first skill` tile to go to the `Skills` secti
 4. Hit `Enter` to create the intent.
 5. Start adding a few examples of how a user would order a drink (at least 5 examples are recommended). Click `Add example` to add a sample line. Let's use the following lines:
 
-    - i would like to order a gluhwein please
-    - I need something to drink caffeine
+    - I would like to order a gluhwein please
+    - I need something to drink
     - order a wine
     - a hot chocolate would be great
-    - a hot beverage please
+    - a drink please
 
 6. Open the `Try it Out` panel by clicking on the speech bubble in the upper right corner. This allows you to test how your assistant will respond.
 7. Wait for the assistant to finish training, then type `can I order something to drink`. It should classify the intent as `#order-drink`. Even though you didn't train the intent on this exact sentence, Watson can still understand it.
@@ -46,7 +46,7 @@ Once in the tooling, click the `My first skill` tile to go to the `Skills` secti
 
 ---
 
-## Creating Entities
+## Creating Entities :christmas_tree:
 1. In the menu on the lef-hand side, click on `Entities`.
 2. Click `Create entity` and add the name `drink`. Press Enter to actually create the intent.
 3. Turn `Fuzzy Matching` on if you want Watson to understand misspellings (should be on by default).
@@ -69,7 +69,7 @@ Here is how your finished entity `@drink` should look:
 
 !   [finished entity](./pictures/finished-entity.png)
 
-## Creating a Dialog
+## Creating a Dialog :gift:
 1. In the menu on the lef-hand side, click `Dialog`. This brings you to the dialog that was already part of the `My first skill` skill.
 2. Click on the `Welcome` node if you would like to change the intro message.
 3. Click `Add node`, and name it `Greetings`.
@@ -89,7 +89,7 @@ Below an example of the finished dialog tree with the `Order Drinks` node open:
 
 ![finished dialog](./pictures/finished-dialog.png)
 
-**CONGRATULATIONS!!** :smiley: :+1: 
+**CONGRATULATIONS!!** :smiley: :+1: :santa:
 
 You successfully completed the lab!! Want to learn more? Try some of the following methods to bolster your CoffeeBot.
 <br>
