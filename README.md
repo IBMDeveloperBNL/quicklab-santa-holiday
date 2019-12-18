@@ -32,9 +32,9 @@ Once in the tooling, click the `My first skill` tile to go to the `Skills` secti
 6. Open the `Try it Out` panel by clicking on the speech bubble in the upper right corner. This allows you to test how your assistant will respond.
 7. Wait for the assistant to finish training, then type `can I order something to drink`. It should classify the intent as `#order-drink`. Even though you didn't train the intent on this exact sentence, Watson can still understand it. 
 
-Note that because we haven't trained the assistant yet on how to respond, the answer is still `I didn't understand. You can try rephrasing.`. This will change once we will create the dialog.
+    Note that because we haven't trained the assistant yet on how to respond, the answer is still `I didn't understand. You can try rephrasing.`. This will change once we will create the dialog.
 
-8. Add a few more intents to make your assistant more robust. For this, click <img src='./pictures/back.png' height='12'> button, followed by the `Create Intent` button. Next, create the following intents and add a few examples to each:
+8. Add a few more intents to make your assistant more robust. For this, click the <img src='./pictures/back.png' height='12'> button, followed by the `Create Intent` button. Next, create the following intents and add a few examples to each:
 
     - #see-menu (User wants to see what's on the menu)
     - #greetings (User greets the assistant)
@@ -53,24 +53,20 @@ Note that because we haven't trained the assistant yet on how to respond, the an
 1. In the menu on the lef-hand side, click on `Entities`.
 2. Click `Create entity` and add the name `drink`. Press Enter to actually create the intent.
 3. Turn `Fuzzy Matching` on if you want Watson to understand misspellings (should be on by default).
-4. Add a value `alcoholic` with the synonyms of `gluhwein`, `wine` and `beer`. Click `Add value` to actually add the new value with its synonyms.
-5. Complete this section by adding some additional values that you allow your users to order and any synonyms, for example:
+4. Add a value `alcoholic` with the synonyms `gluhwein`, `wine` and `beer`. Click `Add value` to actually add the new value with its synonyms.
+5. Complete this section by adding the value `non-alcoholic` with the synonyms `hot chocolate`, `coffee` and `tea`.
 
-    - alcoholic
-    - hot chocolate
-    - coffee
-    - tea
 6. Exit the page (1).
 
     ![system entities 1](./pictures/sys-entity-1.png)
 
-7. Click on `System entities` (2) underneath the `Entities` tab and turn on `@sys-number`.
+7. Click on `System entities` (2) in the `Entities` section and turn on `@sys-number`.
 
     ![system entities 2](./pictures/sys-entity-2.png)
 
-Here is how your finished entity `@drink` should look:
+    Here is how your finished entity `@drink` should look:
 
-!   [finished entity](./pictures/finished-entity.png)
+    ![finished entity](./pictures/finished-entity.png)
 
 ## Creating a Dialog :gift: :gift:
 1. In the menu on the lef-hand side, click `Dialog`. This brings you to the dialog that was already part of the `My first skill` skill.
