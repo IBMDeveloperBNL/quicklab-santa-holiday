@@ -1,4 +1,4 @@
-# :christmas_tree :santa: :christmas_tree: Build your Santa Holiday Assistant in a snap :christmas_tree :santa: :christmas_tree: 
+# :christmas_tree: :santa: :christmas_tree: Build your Santa Holiday Assistant in a snap :christmas_tree: :santa: :christmas_tree: 
 We will be creating an assistant to take your orders at the Christmas drinks...
 
 ## Creating an IBM Cloud Account
