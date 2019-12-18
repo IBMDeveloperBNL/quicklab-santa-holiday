@@ -53,8 +53,14 @@ Once in the tooling, click the `My first skill` tile to go to the `Skills` secti
 1. In the menu on the lef-hand side, click on `Entities`.
 2. Click `Create entity` and add the name `drink`. Press Enter to actually create the intent.
 3. Turn `Fuzzy Matching` on if you want Watson to understand misspellings (should be on by default).
-4. Add a value `alcoholic` with the synonyms `gluhwein`, `wine` and `beer`. Click `Add value` to actually add the new value with its synonyms.
-5. Complete this section by adding the value `non-alcoholic` with the synonyms `hot chocolate`, `coffee` and `tea`.
+4. Add a value `coffee` with the synonym `cafe`. Click `Add value` to actually add the new value with its synonym.
+5. Complete this section by adding some additional values that you allow your users to order and any synonyms, for example:
+
+    - gluhwein
+    - hot chocolate
+    - wine
+    - beer
+    - cappuccino
 
 6. Exit the page (1).
 
