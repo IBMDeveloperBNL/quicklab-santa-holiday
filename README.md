@@ -96,7 +96,7 @@ Below an example of the finished dialog tree with the `Order Drinks` node open:
 
 :christmas_tree: :christmas_tree: :santa: :santa: **CONGRATULATIONS!!** :santa: :santa: :christmas_tree: :christmas_tree:
 
-You successfully completed the lab!! Want to learn more? Try some of the following methods to bolster your CoffeeBot.
+You successfully completed the lab!! Want to learn more? Try some of the following methods to bolster your Santa Holiday Assistant.
 <br>
 <br>
 <br>
@@ -118,7 +118,7 @@ Sometimes, you want an intent to be handled no matter where the user is in their
 
 1. Create a `#help` intent with examples like: "I need help".
 2. Create a node below your `Order Drinks` node.
-3. Add the condition of `#help` with a response like: "I can help you order a drink from my coffee shop. Just say order drink to get started!".
+3. Add the condition of `#help` with a response like: "I can help you order a Christmas drink!! Just say 'order drink' to get started!".
 4. Go into the `Customize` portion of the node by clicking in the upper right.
 5. Click on the `Digressions` tab.
 6. Expand `Digressions can come into this node` and enable `Return after digressions` (Digressions should be on by default, this setting allows you to handle the intent and then return back to the flow). Click `Apply` to complete this step.
