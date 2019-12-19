@@ -94,7 +94,7 @@ Below an example of the finished dialog tree with the `Order Drinks` node open:
 
 ![finished dialog](./pictures/finished-dialog.png)
 
-:christmas_tree: :santa: **CONGRATULATIONS!!** :santa: :christmas_tree: :smiley: :+1:
+:christmas_tree: :christmas_tree: :santa: **CONGRATULATIONS!!** :santa: :christmas_tree: :christmas_tree: :smiley: :+1:
 
 You successfully completed the lab!! Want to learn more? Try some of the following methods to bolster your CoffeeBot.
 <br>
