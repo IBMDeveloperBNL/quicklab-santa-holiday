@@ -62,7 +62,7 @@ Once in the tooling, click the `My first skill` tile to go to the `Skills` secti
     - beer
     - cappuccino
 
-6. Exit the page (1).
+6. Exit the page by clicking (1).
 
     ![system entities 1](./pictures/sys-entity-1.png)
 
@@ -94,7 +94,7 @@ Below an example of the finished dialog tree with the `Order Drinks` node open:
 
 ![finished dialog](./pictures/finished-dialog.png)
 
-**CONGRATULATIONS!!** :smiley: :+1: :santa:
+:christmas_tree: :santa: **CONGRATULATIONS!!** :santa: :christmas_tree: :smiley: :+1:
 
 You successfully completed the lab!! Want to learn more? Try some of the following methods to bolster your CoffeeBot.
 <br>
@@ -121,9 +121,9 @@ Sometimes, you want an intent to be handled no matter where the user is in their
 3. Add the condition of `#help` with a response like: "I can help you order a drink from my coffee shop. Just say order drink to get started!".
 4. Go into the `Customize` portion of the node by clicking in the upper right.
 5. Click on the `Digressions` tab.
-6. Expand `Digressions can come into this node` and enable `Return after digression` (Digressions should be on by default, this setting allows you to handle the intent and then return back to the flow). Click `Apply` to complete this step.
-7. Now to test this out, we need to get in the middle of our order drink flow. But first, since it is a slot, we need to go into the `Digressions` tab in the `Order Drinks` slots node.
-8. Turn on `Allow digressions away while slot filling` and click the button that only allows nodes with returns enabled. This will help you to control which nodes you want to allow to digress to.
+6. Expand `Digressions can come into this node` and enable `Return after digressions` (Digressions should be on by default, this setting allows you to handle the intent and then return back to the flow). Click `Apply` to complete this step.
+7. Now, to test this out, we need to get in the middle of our order drink flow. But first, since it is a slot, we need to go into the `Digressions` tab in the `Order Drinks` slots node.
+8. Turn on `Allow digressions away while slot filling` and check the option that only allows nodes with returns enabled. This will help you to control which nodes you want to allow to digress to. Finally, click `Apply` to complete this step.
 
     ![Enable Digressions](./pictures/enable-digressions.png)
 
